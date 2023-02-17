@@ -6,5 +6,7 @@ public class Example01 {
 		int y = 20;
 		int z = (++x) + (y--);
 		System.out.println(z); // 31
+		System.out.println(x); // 11
+		System.out.println(y); // 19
 	}
 }
