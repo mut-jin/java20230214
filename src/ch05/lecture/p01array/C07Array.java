@@ -26,5 +26,6 @@ public class C07Array {
 		
 		System.out.println(arr1[0]);
 		System.out.println(arr2[0]); // 5? 50?
+		
 	}
 }
