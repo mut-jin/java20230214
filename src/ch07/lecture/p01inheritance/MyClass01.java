@@ -1,4 +1,4 @@
-package ch06.lecture.p01class;
+package ch07.lecture.p01inheritance;
 
 //클래스 작성
 //클래스명 : UpperCamelCase

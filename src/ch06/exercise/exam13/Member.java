@@ -8,6 +8,11 @@ public class Member {
 	private boolean married;
 	
 	
+	Member (String name, String id) {
+		this.name = name;
+		this.id = id;
+	}
+	
 	
 	public boolean isMarried() {
 		return married;
