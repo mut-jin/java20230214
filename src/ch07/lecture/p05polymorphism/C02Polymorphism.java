@@ -11,7 +11,7 @@ public class C02Polymorphism {
 		printInteger(d2);
 		
 		BigDecimal b2 = new BigDecimal("3.1415");
-		printInteger(b2);
+		printInteger(b2); 
 	}
 	
 	public static void printInteger(Number n) {
