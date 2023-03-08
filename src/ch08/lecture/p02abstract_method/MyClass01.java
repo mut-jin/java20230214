@@ -1,4 +1,4 @@
-package ch08.lecture.p01interface.p02abstract_method;
+package ch08.lecture.p02abstract_method;
 
 // 구현클래스(구체클래스. concrete class)
 public class MyClass01 implements MyInterface01 {

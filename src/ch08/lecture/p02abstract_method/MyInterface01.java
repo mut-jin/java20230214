@@ -1,4 +1,4 @@
-package ch08.lecture.p01interface.p02abstract_method;
+package ch08.lecture.p02abstract_method;
 
 public interface MyInterface01 {
 	// 추상메소드(몸통없음)
