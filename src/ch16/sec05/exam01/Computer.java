@@ -6,6 +6,6 @@ public class Computer {
 	}
 	
 	public double instanceMethod(double x, double y) {
-		return x * y;
+		return x + y;
 	}
 }
