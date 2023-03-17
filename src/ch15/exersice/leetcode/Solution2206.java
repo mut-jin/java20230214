@@ -21,15 +21,23 @@ public class Solution2206 {
 		
 		
 		// value가 홀수 인게 있으면 return false;
-		for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-			int v = entry.getValue();
-			if(v % 2 == 1) {
-				return false;
-			}
-		}
+//		for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
+//			int v = entry.getValue();
+//			if(v % 2 == 1) {
+//				return false;
+//			}
+//		}
+//		
+//		
+//		return true;
 		
-		
-		return true;
+		return map.values()
+				.stream()
+				.allMatch(this :: even);
+	}
+	
+	private boolean even(int e) {
+		return (e % 2) == 0;
 	}
 }
 

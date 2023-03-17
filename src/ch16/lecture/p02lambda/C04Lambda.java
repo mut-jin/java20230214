@@ -1,6 +1,6 @@
 package ch16.lecture.p02lambda;
 
-public class C04Lamda {
+public class C04Lambda {
 	public static void main(String[] args) {
 		MyInterface04 o1 = new MyInterface04() {
 			@Override
