@@ -1,10 +1,10 @@
 package ch07.sec07.exam01;
 
 class A {
-
+	
 }
 
-class B extends A {
+class B extends A{
 	
 }
 
@@ -19,6 +19,7 @@ class D extends B {
 class E extends C {
 	
 }
+
 public class PromotionExample {
 	public static void main(String[] args) {
 		B b = new B();
@@ -34,7 +35,7 @@ public class PromotionExample {
 		B b1 = d;
 		C c1 = e;
 		
-		// B b3 = e;
-		// C c2 = d;
+		// B b2 = e;
+		// c c2 = d;
 	}
 }
