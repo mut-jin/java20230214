@@ -2,17 +2,12 @@ package ch07.sec10.exam01;
 
 public class PhoneExample {
 	public static void main(String[] args) {
-//		Phone phone = new Phone();
+		// Phone phone = new Phone(); xxxxx
 		
 		SmartPhone smartPhone = new SmartPhone("홍길동");
 		
 		smartPhone.turnOn();
 		smartPhone.internetSearch();
 		smartPhone.turnOff();
-		
-		Phone p = smartPhone;
-		p.turnOn();
-		p.turnOff();
-//		p.internetSearch(); xx
 	}
 }
